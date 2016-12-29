@@ -48,7 +48,7 @@ public class Algorithm {
 		  boolean success = false;
 		  while(!success)
 		  try{
-			  System.out.println("Please enter name of the text file (with .txt): ");
+			  System.out.println("Please enter name of the test file (with .txt): ");
 		      String fileName = reader.nextLine();
 			  x = new Scanner(new File(fileName));		 
 			  success=true;
